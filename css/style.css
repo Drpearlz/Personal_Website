@@ -30,7 +30,6 @@ html{
     font-size: 36px;
 
 }
-
 .scroll-up-btn{
     position: fixed;
     height: 45px;
@@ -57,7 +56,7 @@ html{
 
 footer{
     height: 20vh;
-    background: crimson;
+    background: rgb(134, 90, 99);
 }
 
 .max-width-custom{
@@ -76,7 +75,7 @@ footer{
 }
 
 .navbar-custom .menu li a:hover {
-    color: crimson !important;
+    color: rgb(168, 13, 148) !important;
 }
 
 .navbar-custom.sticky{
@@ -100,14 +99,14 @@ footer{
     font-weight: 600;
 }
 .navbar-custom .logo a span{
-    color: crimson;
+    color: rgb(221, 186, 32);
     transition: all 0.3s ease;
 }
 .navbar-custom.sticky .logo a span{
     color: #fff;
 }
 .navbar-custom .logo a span{
-    color: crimson;
+    color: rgb(167, 96, 214);
 }
 .navbar-custom .menu li{
     list-style: none;
@@ -122,7 +121,7 @@ footer{
 }
 
 .navbar-custom .menu li a:hover{
-    color: crimson;
+    color: rgb(167, 96, 214);
 }
 
 .navbar-custom.sticky .menu li a:hover{
@@ -137,7 +136,7 @@ footer{
 }
 
 .menu li.active a{
-    color: crimson;
+    color: rgb(167, 96, 214);
 }
 
 /* Home section */
@@ -190,20 +189,20 @@ footer{
 }
 
 .home .home-content .text-3 span{
-    color: crimson;
+    color: rgb(167, 96, 214);
     font-weight: 500;
 }
 
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: rgb(167, 96, 214);
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     margin-right: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(167, 96, 214);
     transition: all .5s ease;
 }
 
@@ -224,7 +223,7 @@ footer{
     display: block;
     width: 100%;
     height: 100vh;
-    background: rgb(0,0,0,.5);
+    background: rgba(231, 189, 189, 0.5);
 }
 
 .about, .project,  .services, .skills, .teams, .contact{
@@ -236,14 +235,14 @@ footer{
 /* about section */
 .about .about-content a{
     display: inline-block;
-    background: crimson;
+    background: rgb(167, 96, 214);
     color: #fff;
     font-size: 18px;
     padding: 12px 36px;
     margin-top: 20px;
     margin-right: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(167, 96, 214);
     transition: all .5s ease;
 }
 
@@ -252,7 +251,7 @@ footer{
     background: none;
 }
 .about .title:after{
-    content:"Who I am";
+    content:"Who I be";
 }
 .about .about-content .left img{
     height: 400px;
@@ -342,7 +341,7 @@ section .title:after{
 }
 .project .title::after{
     background: #2d3436;
-    content: "Recent Projects";
+    content: "Recent Works, More in Progress";
 }
 
 .project-content{
@@ -409,13 +408,13 @@ section .title:after{
     margin-top: 20px;
     margin-right: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(204, 104, 124);
     transition: all 1s ease;
 }
     
 .project-content .blog-post .blog-post_info a:hover{
     color: #fff;
-    background: crimson;
+    background: rgb(173, 122, 132);
 }
 
 .project-icons i{
@@ -499,7 +498,7 @@ section .title:after{
 }
 .services .title::after{
     background: #111;
-    content: "What I provide";
+    content: "Some Services I Provide";
 }
 
 .services .services-content .card{
@@ -516,7 +515,7 @@ section .title:after{
     transition:  all 0.3s ease;
 }
 .services .services-content .card:hover{
-    background: crimson;
+    background: rgb(167, 96, 214);
 }
 
 .services .services-content .card:hover .box{
@@ -524,7 +523,7 @@ section .title:after{
 }
 .services .services-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: rgb(167, 96, 214);
     transition:  all 0.3s ease;
 }
 .services .services-content .card:hover i{
@@ -641,7 +640,7 @@ section .title:after{
     color: black;
 }
 .teams .carousel .card:hover{
-    background: #77bfe2ba;
+    background: salmon ;
 }
 .teams .carousel .card:hover .box, .teams .carousel .card:hover .box a{
     color: #fff;
@@ -805,7 +804,7 @@ section .title:after{
 .contact .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid crimson;
+    border: 2px solid rgb(167, 96, 214);
     background: crimson;
     color: #fff;
     font-size: 20px;

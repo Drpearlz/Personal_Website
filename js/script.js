@@ -62,14 +62,14 @@ $(document).ready(function(){
 
     //animation
     var typed= new Typed(".typing", {
-        strings: ["software developer", "husband", "father", "student", "freelancer", "web developer", "cook"],
-        typeSpeed: 100,
-        backSpeed: 60,
+        strings: ["software engineer.", "wife.", "mother.", "student.", "enterpreneur.", "web developer/designer.", "contractor."],
+        typeSpeed: 97,
+        backSpeed: 70,
         loop: true
     });
 
     var typed= new Typed(".typing2", {
-        strings: ["software developer", "husband", "father", "student", "freelancer", "web developer", "cook"],
+        strings: ["software developer", "wife.", "mother.", "enterpreneur.", "designer.", "web developer.", "consultant."],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
